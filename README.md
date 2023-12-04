@@ -6,12 +6,12 @@ Si quieres revivir el curso, puedes [ver esta lista](https://www.youtube.com/pla
 
 Espero le puedas sacar un buen uso.
 
--   [Clase 01](/clase-01/)
--   [Clase 02](/clase-02/)
--   [Clase 03](/clase-03/)
--   [Clase 04](/clase-04/)
--   [Clase 05](/clase-05/)
--   [Clase 06](/clase-06/)
+-   [Clase 01](/Clase01/)
+-   [Clase 02](/Clase02/)
+-   [Clase 03](/Clase03/)
+-   [Clase 04](/Clase04/)
+-   [Clase 05](/Clase05/)
+-   [Clase 06](/Clase06/)
 
 ---
 
