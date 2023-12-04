@@ -1,0 +1,50 @@
+$debug: true;
+
+$pages: ("home", "about", "products", "contact");
+
+$selector: ();
+
+%test {
+    color: pink;
+}
+
+@each $item in $pages {
+    $selector: append($selector, ".#{$item} .nav-#{$item}", "comma");
+    .#{$item} .nav-#{$item} {
+        @extend %test;
+    }
+}
+
+#{$selector} {
+    border: solid 1px red;
+}
+
+$colors: (red #f00 1px), (green #0f0 2px), (blue #00f 3px);
+
+@each $map in $colors {
+    $color: nth($map, 1);
+    $hex: nth($map, 2);
+    $px: nth($map, 3);
+    .#{$color} {
+        color: $hex;
+        border-width: $px;
+    }
+}
+
+.showEcard {
+    &__help {
+        &-button {
+            padding: 0;
+        }
+        &-button:hover &-text {
+            background-color: red;
+        }
+        &-text {
+            display: inline-block;
+            &::after {
+                content: "";
+                display: block;
+            }
+        }
+    }
+}

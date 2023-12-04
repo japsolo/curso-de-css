@@ -1,0 +1,64 @@
+/* 
+    Regla de estilo 
+    Conjunto de propiedades que se asignan a un elemento HTML
+
+    selector {
+        propiedad: valor; (declaración)
+    }
+
+    Tipos de selectores:
+        - Selector de etiqueta
+        - Selector de clase: .nombre-clase
+        - Selector de ID: #nombre-id
+*/
+
+:root {
+    --color-red: #e53838;
+    --color-green: #00ff00;
+    --color-blue: #0000ff;
+    --color-pink: #ffc0cb;
+    --color-yellow: #f4cf17;
+    --main-font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    --main-font-family: "Comic Sans MS";
+    text-align: center;
+    font-family: var(--main-font-family);
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: -2px -2px 2px #ff0000, 2px 2px 2px #00ff00;
+}
+
+.enlace-especial {
+    text-decoration: none;
+    color: var(--color-blue);
+}
+
+em {
+    font-style: normal;
+}
+
+strong {
+    font-weight: normal;
+}
+
+p {
+    color: var(--color-red);
+    font-family: var(--main-font-family);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Selector de tipo clase */
+.parrafo-especial {
+    color: var(--color-yellow);
+    text-align: right;
+}
+
+#titulo {
+    color: pink;
+    text-align: right;
+}

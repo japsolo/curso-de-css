@@ -1,0 +1,70 @@
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 1rem;
+    background-color: salmon;
+    border: solid 2px black;
+}
+
+.position-relative {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.position-absolute {
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+}
+
+.position-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.sub-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sub5 {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    z-index: 4;
+}
+
+.sub6 {
+    position: absolute;
+    left: 350px;
+    top: 350px;
+    z-index: 3;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal p {
+    background-color: #fff;
+    padding: 15px;
+    width: 40%;
+}

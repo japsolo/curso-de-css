@@ -1,0 +1,23 @@
+html {
+    font-size: 20px;
+}
+
+.rem {
+    font-size: 3rem;
+}
+
+.em {
+    font-size: 12px;
+}
+
+.box {
+    width: 50%;
+    height: 100px;
+    background-color: #000;
+}
+
+.viewport {
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+}

@@ -1,0 +1,65 @@
+:root {
+    --font-family: "Lucida Sans", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+    height: 300vh;
+}
+
+body {
+    font-family: var(--font-family);
+    /* background-color: #f2f2f2;
+    background-image: url("../images/bg-01.webp");
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: fixed; */
+    background: #f2f2f2 url("../images/bg-01.webp") fixed;
+}
+
+.bg-orange {
+    background-color: rgba(255, 166, 0, 0.2);
+}
+
+.bg-pink {
+    background-color: #ffc0cb;
+}
+
+.bg-texture {
+    background-image: url("../images/bg-02.png");
+}
+
+.container-01 {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    border: solid 3px #222;
+    background-image: repeating-linear-gradient(#5656b4 0px, #74d674 10px, #d6c274 20px);
+}
+
+.container-02 {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    border: solid 3px #222;
+    background-image: radial-gradient(circle, #5656b4, #74d674);
+}
+
+.container-03 {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    border: solid 3px #222;
+    background-image: conic-gradient(#5656b4, #74d674, #d6c274);
+}
+
+.container-04 {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    border: solid 3px #222;
+    background-image: url("../images/bg-04.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}

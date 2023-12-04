@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma;
+    margin: 0;
+}
+
+.container {
+    width: 300px;
+    height: 200px;
+    background-color: olive;
+    padding: 25px;
+    border: 5px solid #f00;
+    margin: 40px;
+    display: inline-block;
+}
+
+h3 {
+    height: 120px;
+    font-size: 40px;
+    padding: 20px;
+    background-color: chocolate;
+    color: #fff;
+    margin: 0;
+}
